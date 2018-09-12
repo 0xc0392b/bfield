@@ -15,7 +15,7 @@ import (
 )
 
 func main() {
-    b := bfield.New(1000)
+    b := bitfield.New(1000)
 
     b.Toggle(10)
     fmt.Println(b.Get(10)) // true
