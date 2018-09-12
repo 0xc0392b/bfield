@@ -5,6 +5,11 @@
 * Toggle(index) -> toggles the state of a bit at a specific index,
 * Get(index) -> retrieve the state of a bit at a specific index.
 
+#### Installation
+```text
+go get github.com/williamsandytoes/bitfield
+```
+
 #### Example usage
 ```go
 package main
