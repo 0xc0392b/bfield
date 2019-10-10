@@ -4,6 +4,7 @@
 #### Methods
 * Toggle(index) -> toggles the state of a bit at a specific index
 * Get(index) -> retrieve the state of a bit at a specific index
+* Set(index, state) -> sets the state of a bit at a specific index
 
 #### Installation
 ```text
