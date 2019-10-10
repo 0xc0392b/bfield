@@ -1,13 +1,13 @@
-# bitfield
-### Bit field data structure implemented in Go.
+# bfield
+### Bit field data structure for Go
 
-#### Available methods
-* Toggle(index) -> toggles the state of a bit at a specific index,
-* Get(index) -> retrieve the state of a bit at a specific index.
+#### Methods
+* Toggle(index) -> toggles the state of a bit at a specific index
+* Get(index) -> retrieve the state of a bit at a specific index
 
 #### Installation
 ```text
-go get github.com/williamsandytoes/bitfield
+go get github.com/williamsandytoes/bfield
 ```
 
 #### Example usage
@@ -16,11 +16,11 @@ package main
 
 import (
   "fmt"
-  "github.com/williamsandytoes/bitfield"
+  "github.com/williamsandytoes/bfield"
 )
 
 func main() {
-    b := bitfield.New(1000)
+    b := bfield.New(1000)
 
     b.Toggle(10)
     fmt.Println(b.Get(10)) // true
